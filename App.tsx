@@ -6,7 +6,7 @@ import {
 import { ThemeProvider } from 'styled-components'
 
 import { Loading } from '@/components/Loading'
-import { NewGroup } from '@/screens/NewGroup'
+import { Players } from '@/screens/Players'
 import theme from '@/theme'
 import { StatusBar } from 'react-native'
 
@@ -24,7 +24,7 @@ export default function App() {
         translucent
       />
 
-      {isFontLoaded ? <NewGroup /> : <Loading />}
+      {isFontLoaded ? <Players /> : <Loading />}
     </ThemeProvider>
   )
 }
