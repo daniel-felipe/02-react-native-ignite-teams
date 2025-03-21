@@ -3,10 +3,10 @@ import {
   Roboto_700Bold,
   useFonts,
 } from '@expo-google-fonts/roboto'
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components/native'
 
 import { Loading } from '@/components/Loading'
-import { Players } from '@/screens/Players'
+import { Groups } from '@/screens/Groups'
 import theme from '@/theme'
 import { StatusBar } from 'react-native'
 
@@ -24,7 +24,7 @@ export default function App() {
         translucent
       />
 
-      {isFontLoaded ? <Players /> : <Loading />}
+      {isFontLoaded ? <Groups /> : <Loading />}
     </ThemeProvider>
   )
 }

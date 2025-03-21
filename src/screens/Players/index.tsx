@@ -43,7 +43,6 @@ export function Players() {
           )}
           horizontal
         />
-
         <NumberOfPlayers>{players.length}</NumberOfPlayers>
       </HeaderList>
 

@@ -1,6 +1,5 @@
-import styled from 'styled-components/native'
 import { MaterialIcons } from '@expo/vector-icons'
-import { css } from 'styled-components'
+import styled, { css } from 'styled-components/native'
 
 export const Container = styled.View`
   width: 100%;
