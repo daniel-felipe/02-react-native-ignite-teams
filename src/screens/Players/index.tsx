@@ -14,16 +14,7 @@ import { Container, Form, HeaderList, NumberOfPlayers } from './styles'
 
 export function Players() {
   const [team, setTeam] = useState('Time A')
-  const [players, setPlayers] = useState([
-    'Rodrigo',
-    'Junior',
-    'Marcos',
-    'Carlos',
-    'João',
-    'Daniel',
-    'André',
-    'Diego',
-  ])
+  const [players, setPlayers] = useState([])
 
   return (
     <Container>
@@ -64,7 +55,7 @@ export function Players() {
           <PlayerCard name={item} onRemove={() => {}} />
         )}
         ListEmptyComponent={() => (
-          <ListEmpty message="Não há pessoas nesse time" />
+          <ListEmpty message="Não há pessoas nesse time." />
         )}
         contentContainerStyle={[
           { paddingBottom: 100 },
@@ -72,7 +63,7 @@ export function Players() {
         ]}
       />
 
-      <Button title="Remover Turma" />
+      <Button title="Remover Turma" type="SECONDARY" />
     </Container>
   )
 }
