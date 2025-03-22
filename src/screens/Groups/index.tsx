@@ -1,6 +1,6 @@
-import { useNavigation } from '@react-navigation/native'
 import { useState } from 'react'
 import { FlatList } from 'react-native'
+import { useNavigation } from '@react-navigation/native'
 
 import { Button } from '@/components/Button'
 import { GroupCard } from '@/components/GroupCard'
@@ -16,7 +16,7 @@ export function Groups() {
   const navigation = useNavigation()
 
   function handleNewGroup() {
-    navigation.navigate('players')
+    navigation.navigate('new')
   }
 
   return (
