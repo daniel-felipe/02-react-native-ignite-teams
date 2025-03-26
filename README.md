@@ -4,8 +4,7 @@ Este é um aplicativo simples desenvolvido com React Native. Ele permite que os 
 
 ## Demonstração
 
-![To-Do App](./screenshots/image01.png)
-![To-Do App](./screenshots/image02.png)
+<img src="./screenshots/image01.png" width="200" hspace="10"> <img src="./screenshots/image02.png" width="200" hspace="10">
 
 ## Tecnologias Utilizadas
 
